@@ -1,0 +1,318 @@
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --color: red;
+    --main-transition: all .5s;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+
+}
+
+
+
+/* start landing all */
+.landing {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: 5px solid #000;
+    border-bottom: 5px solid #000;
+}
+
+.landing > .container {
+    min-height: 100vh;
+    position: relative;
+}
+
+.none {
+    display: none;
+}
+
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* bast background-color 
+background-color: #15212d;
+
+
+
+*/
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start landing 1 */
+
+.landing-1 .container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.landing-1 .background-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.landing-1 .background-container .bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120vw;
+    height: 120vw;
+    background: #000;
+    background: url("../img/landing1/bg1.jpeg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    clip-path: circle(70% at 50% 50%);
+    animation: l1rotate 1.5s forwards 1;
+    transform: translate(-50%, -50%) rotate(0);
+    -webkit-transform: translate(-50%, -50%) rotate(0);
+    -moz-transform: translate(-50%, -50%) rotate(0);
+    -ms-transform: translate(-50%, -50%) rotate(0);
+    -o-transform: translate(-50%, -50%) rotate(0);
+    -webkit-animation: l1rotate 1.5s forwards 1;
+}
+
+.landing-1 .background-container .bg:nth-child(1) {
+    animation-delay: 1200ms;
+}
+
+.landing-1 .background-container .bg:nth-child(2) {
+    clip-path: circle(40% at 50% 50%);
+    animation-delay: 1150ms;
+}
+
+.landing-1 .background-container .bg:nth-child(3) {
+    clip-path: circle(30% at 50% 50%);
+    animation-delay: 1100ms;
+}
+
+.landing-1 .background-container .bg:nth-child(4) {
+    clip-path: circle(20% at 50% 50%);
+    animation-delay: 1050ms;
+}
+
+.landing-1 .background-container .bg:nth-child(5) {
+    clip-path: circle(10% at 50% 50%);
+    animation-delay: 1000ms;
+}
+
+@keyframes l1rotate {
+    0% {
+        transform: translate(-50%, -50%) rotate(0);
+        -webkit-transform: translate(-50%, -50%) rotate(0);
+        -moz-transform: translate(-50%, -50%) rotate(0);
+        -ms-transform: translate(-50%, -50%) rotate(0);
+        -o-transform: translate(-50%, -50%) rotate(0);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+        -webkit-transform: translate(-50%, -50%) rotate(360deg);
+        -moz-transform: translate(-50%, -50%) rotate(360deg);
+        -ms-transform: translate(-50%, -50%) rotate(360deg);
+        -o-transform: translate(-50%, -50%) rotate(360deg);
+}
+}
+
+.landing-1 .heading {
+    color: #fff;
+    font-family: 'roboto', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    z-index: 3;
+    letter-spacing: 4vw;
+}
+
+
+
+
+
+
+
+/* end landing 1 */
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start landing 2 */
+
+
+
+/* end landing 2 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start landing 3 */
+
+
+
+/* end landing 3 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start landing 4 */
+
+
+
+/* end landing 4 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start landing 5 */
+
+
+
+/* end landing 5 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start landing 6 */
+
+
+
+/* end landing 6 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start landing 7 */
+
+
+
+/* end landing 7 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start landing 8 */
+
+
+
+/* end landing 8 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start landing 9 */
+
+
+
+/* end landing 9 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start landing 10 */
+
+
+
+/* end landing 10 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start landing 11 */
+
+
+
+/* end landing 11 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
